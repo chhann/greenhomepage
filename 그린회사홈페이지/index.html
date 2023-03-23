@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/slider2.css">
 </head>
 <body>
     <!-- 고정 내비게이션바 시작 -->
@@ -33,39 +34,119 @@
                 <div class="slider-button prev" id="prev-button">&lt;<</div>
                 <div class="slider-button next" id="next-button">&gt;></div>
             </div>
+            <div class="scrollon-icon"><a href="#intro">🔻</a></div>
         </section>
         <!-- 섹션1 배너 끝 -->
         
         <!-- 섹션2 소개(스크롤이벤트)시작-->
         <a name="intro"></a>
-        <section class="intro-scroll">
-        
+        <section class="intro-scroll" id="intro">
+            <div class="green-intro">
+                <h1>그린컴퍼니</h1>
+                <p>그린컴퍼니는 새로운 50년을 이끌어 갈 수 있도록 최선을 다하겠습니다.</p>
+            </div>
+            <div class="green-intro-image">
+                <div class="intro-image"></div>
+            </div>
         </section>
         <!-- 센션2 소개(스크롤이벤트) 끝 -->
 
         <!-- 섹션3 사진(슬라이더 버튼)시작 -->
         <a name="pictures"></a>
         <section class="pictures">
+            <div class="pictures-wrap">
+                <div class="pictures-explan">
+                    <h1>사진설명</h1>
+                    <p>자세한 설명</p>
+                    <br>
+                </div>
+                <div class="pictures-button" id="slider-button2">
+                    <a class="on" href="">사진1</a>
+                    <a href="">사진2</a>
+                    <a href="">사진3</a>
+                </div>
+            </div>
+            <!-- 다른형태의 슬라이더 작성 -->
+            <div id="slider2" class="slider2">
+                <div class="slider-item2"></div>
+                <div class="slider-item2"></div>
+                <div class="slider-item2"></div>
+                <!---->
+                <div class="slider2-dots">
+                    <div class="dot on"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+                <!---->
+            </div>
 
         </section>
         <!-- 섹션3 사진 끝 -->
 
         <!-- 섹션4 뉴스 (스크롤이벤트) 시작 -->
         <a name="news"></a>
-        <section class="news">
-
+        <section class="news-scroll" id="news">
+            <h1>회사 동향</h1>
+            <div class="news-cards">
+                <div class="card">
+                    <div class="card-image-warp">
+                        <div class="card-image"></div>
+                    </div>
+                    <div class="card-text">
+                        <p>보도자료</p>
+                        <h3>보도자료 제목</h3>
+                        <span>날짜</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image-warp">
+                        <div class="card-image"></div>
+                    </div>
+                    <div class="card-text">
+                        <p>보도자료</p>
+                        <h3>보도자료 제목</h3>
+                        <span>날짜</span>
+                    </div>
+                </div><div class="card">
+                    <div class="card-image-warp">
+                        <div class="card-image"></div>
+                    </div>
+                    <div class="card-text">
+                        <p>보도자료</p>
+                        <h3>보도자료 제목</h3>
+                        <span>날짜</span>
+                    </div>
+                </div><div class="card">
+                    <div class="card-image-warp">
+                        <div class="card-image"></div>
+                    </div>
+                    <div class="card-text">
+                        <p>보도자료</p>
+                        <h3>보도자료 제목</h3>
+                        <span>날짜</span>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- 섹션4 뉴스 끝 -->
 
     </main>
 
     <!-- 부터 시작 -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div>로고</div>
+        <div>
+            <p>전화번호</p>
+            <p>SNS</p>
+            <p>copywriter</p>
+        </div>
+    </footer>
     <!-- 푸터 끝 -->
 
 
 
     <script src="./js/scroll.js"></script>
     <script src="./js/slider.js"></script>
+    <script src="./js/slider2.js"></script>
 </body>
 </html>
